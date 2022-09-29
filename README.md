@@ -35,6 +35,13 @@ sudo docker build -f dockerfile_cali -t cali_base .
 ```
 ## 4) Run the Final Image
 
+<u><strong><em>Requirement</em><strong></u> : To allow docker to public GUI tools on your computer, you have to run <strong>"xhost +local:root"</strong>. To disallow, <strong>"xhost -local:root"</strong>.
+
+```bash
+xhost +local:root
+```
+
+
 We can now <strong>run</strong> the image by creating a container named <strong>cali_project</strong> :
 
 We will see <strong>2 methods</strong> to run the final image:
