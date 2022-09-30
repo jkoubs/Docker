@@ -23,6 +23,8 @@ touch dockerfile_ros_melodic dockerfile_cali
 
 We build the 1st image named <strong>ros_melodic</strong> using the <strong>dockerfile_ros_melodic</strong> Dockerfile and that will contain the ROS Melodic distribution.
 
+It will build an image on top of the <strong>ros:melodic-desktop-full</strong> image imported from the Docker Hub.
+
 ```bash
 cd ~/catkin_ws/src/docker_ros
 sudo docker build -f dockerfile_ros_melodic -t ros_melodic .
