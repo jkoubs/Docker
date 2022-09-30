@@ -13,8 +13,9 @@ Then create <strong>two Dockerfiles</strong> :
 </ul>
 
 ```bash
-cd ~/catkin_ws
+cd ~/catkin_ws/src
 mkdir docker_ros
+cd docker_ros
 touch dockerfile_ros_melodic dockerfile_cali
 ```
 
@@ -23,6 +24,7 @@ touch dockerfile_ros_melodic dockerfile_cali
 We build the 1st image named <strong>ros_melodic</strong> using the <strong>dockerfile_ros_melodic</strong> Dockerfile and that will contain the ROS Melodic distribution.
 
 ```bash
+cd ~/catkin_ws/src/docker_ros
 sudo docker build -f dockerfile_ros_melodic -t ros_melodic .
 ```
 
