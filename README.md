@@ -80,4 +80,9 @@ docker system prune
 
 This will remove all unused data.
 
+Can now check the <strong>Disk Space Usage</strong>, more precisely the <strong>space available on the file system mounted to the system root directory (/)</strong> you can use:
+
+```bash
+df -h /
+```
 
