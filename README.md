@@ -68,9 +68,16 @@ We will see <strong>2 methods</strong> to run the final image:
     We can now run our simulation codes inside the container.
 
 
+## 5) Docker Memory Management
 
+If for some reason you encounter following memory error: No space left on device
 
+You can use the following command:
 
+```bash
+docker system prune
+```
 
+This will remove all unused data.
 
 
