@@ -70,7 +70,7 @@ We will see <strong>2 methods</strong> to run the final image:
 
 ## 5) Docker Memory Management
 
-If for some reason you encounter following memory error: No space left on device
+If for some reason you encounter following memory error: <strong>No space left on device</strong>
 
 You can use the following command:
 
